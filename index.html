@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Management</title>
+</head>
+<body>
+    <!-- Login Form -->
+    <div>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Display Customer Data -->
+    <div id="customerData">
+        <!-- Display customer data here -->
+    </div>
+
+    <!-- Create New Customer Form -->
+    <div>
+        <h2>Create New Customer</h2>
+        <form id="createCustomerForm">
+            <!-- Input fields for customer details --> 
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" required><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br>
+        <button type="submit">Create</button>
+        </form>
+    </div>
+
+    <!-- Update Customer Form -->
+    <div>
+        <h2>Update Customer</h2>
+        <form id="updateCustomerForm">
+            <!-- Input fields for customer details -->
+            <button type="submit">Update</button>
+        </form>
+    </div>
+
+    <!-- Delete Customer Form -->
+    <div>
+        <h2>Delete Customer</h2>
+        <form id="deleteCustomerForm">
+            <label for="customerId">Customer ID:</label>
+            <input type="text" id="customerId" name="customerId" required>
+            <button type="submit">Delete</button>
+        </form>
+    </div>
+
+    <!-- Display Messages -->
+    <div id="message"></div>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
