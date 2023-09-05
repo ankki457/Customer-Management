@@ -1,2 +1,2 @@
 # Customer-Management
-![Customer Management](iCustomer-Management.png)
+![Customer Management](Customer-Management.png)
